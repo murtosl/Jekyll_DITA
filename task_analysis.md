@@ -15,17 +15,17 @@ It may take an hour or so to initially set up, but then updating the website wil
 
 This task may be too advanced for a new web programmer, but does not take advanced skills.
 
-
+How Jekyll navigation/URLs work, how Jekyll variables work, How to write and name a post, how to link content to layout, how to import content from other files
 
 ## What Tasks Does the User need to perform to Accomplish the Goal?
 
+Installing Jekyll
 Setting up the folder structure
-How to write a config file
-How Jekyll navigation works
-How to set and reference variables
-How to write and name a post
-How to display imported content
-How to push content to Github
+Writing a config file
+Setting up variables
+Create a layout
+Write a post
+Push content to Github
 
 
 ## When and Under What Conditions is The Task Performed?
@@ -34,7 +34,17 @@ People would use Jekyll if they wanted to have customized urls and a reusable pa
 
 ## What is the Sequence of Tasks?
 
-
+1) Install Jekyll
+2) Create a GitHub Repo/Branch
+3) Create Folder Structure
+4) Create the config file
+5) Create an index.html file
+6) Create a base layout file
+7) Create a design using includes
+8) Create a post
+9) Link to post from index.html page.
+10) Declare additional, reusable variables
+11) Push to GitHub
 
 ## What are the mental and physical steps required for each task?
 
