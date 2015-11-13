@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/reference.dtd">
+
+<reference id="post">
+<title>Config File Settings</title>
+<shortdesc>
+	The configuration file can be customized so the Jekyll site works as desired. These settings can affect many aspects of the website, including customization of URLs and declaring custom variables.
+</shortdesc>
+<refbody>
+    <section>
+
+			<title>
+				Configuration Settings
+			</title>
+		<table frame="all">
+		<tgroup cols="2">
+<colspec colname="col1" colwidth="1*"/>
+<colspec colname="col2" colwidth="2*"/>
+<thead>
+<row>
+<entry valign="top">Setting</entry>
+<entry valign="top">Description</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1">Title</entry>
+<entry colname="col2">The title of your website.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+	</section>
+  </refbody>
+</reference>

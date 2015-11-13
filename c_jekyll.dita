@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="github">
+<title>What is Jekyll?</title>
+<shortdesc>
+	Jekyll is a program that takes static content files and creates a website from them. Jekyll provides the ability to reuse website layouts, and customize URLS without access to a formal backend.
+</shortdesc>
+
+    <conbody>
+		<p>Cross Reference and write more: http://jekyllrb.com/</p>
+	 </conbody>
+</concept>

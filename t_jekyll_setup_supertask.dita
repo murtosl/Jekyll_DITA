@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
+
+<task id="post">
+<title>Create a Website with Jekyll</title>
+<shortdesc>
+	Jekyll can be used to make a website less than 45 minutes. A website should be created with Jekyll if it is made of static content.
+</shortdesc>
+
+<taskbody>
+	<context>
+		<p>Your SD is awful. I don't know how to best write an SD for a supertask.</p>
+	</context>
+	<steps>
+		<step>
+			<cmd>
+				There are no steps. Just stare at your computer and pray.
+			</cmd>
+		</step>
+	</steps>
+</taskbody>
+</task>

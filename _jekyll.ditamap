@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/map.dtd">
+
+<map title="Creating a Website With Jekyll">
+	<title>Creating a Website With Jekyll</title>
+	<topicref href="c_jekyll.dita" />
+	<topicref href="t_jekyll_setup_supertask.dita" >
+		<topicref href="r_config_settings.dita" /> 
+	</topicref>
+	<topicref href="c_github_pages.dita" />
+</map>
