@@ -8,6 +8,6 @@
 </shortdesc>
 
     <conbody>
-		<p>Cross Reference and write more: http://jekyllrb.com/</p>
+		<p>Cross Reference and write more: <xref href="http://jekyllrb.com/" format="html">http://jekyllrb.com/</xref></p>
 	 </conbody>
 </concept>

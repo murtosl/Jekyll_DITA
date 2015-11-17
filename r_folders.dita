@@ -13,23 +13,43 @@
 				Folders
 			</title>
 		<table frame="all">
-		<tgroup cols="2">
-<colspec colname="col1" colwidth="1*"/>
-<colspec colname="col2" colwidth="2*"/>
-<thead>
-<row>
-<entry valign="top">Name</entry>
-<entry valign="top">Description</entry>
-</row>
-</thead>
-<tbody>
-<row>
-<entry colname="col1">Title</entry>
-<entry colname="col2">Desc</entry>
-</row>
-</tbody>
-</tgroup>
-</table>
+			<tgroup cols="2">
+				<colspec colname="col1" colwidth="1*"/>
+				<colspec colname="col2" colwidth="2*"/>
+				<thead>
+					<row>
+						<entry valign="top">Name</entry>
+						<entry valign="top">Stores</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry colname="col1">_data</entry>
+						<entry colname="col2">Data files (like CSV, YML or JSON)</entry>
+					</row>
+					<row>
+						<entry colname="col1">_drafts</entry>
+						<entry colname="col2">Unpublished posts</entry>
+					</row>
+					<row>
+						<entry colname="col1">_includes</entry>
+						<entry colname="col2">Snippets of HTML or Posts that can be reused</entry>
+					</row>
+					<row>
+						<entry colname="col1">_layouts</entry>
+						<entry colname="col2">The various layouts for the website</entry>
+					</row>
+					<row>
+						<entry colname="col1">_posts</entry>
+						<entry colname="col2">Completed posts</entry>
+					</row>
+					<row>
+						<entry colname="col1">_site</entry>
+						<entry colname="col2">Automatically used when Jekyll makes your completed website</entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
 	</section>
   </refbody>
 </reference>
