@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
+
+<task id="post">
+<title>Set Up Github.io Repo</title>
+<shortdesc>
+	In order to display your project as a webpage, GitHub requires a [username].github.io repository be created.
+</shortdesc>
+
+<taskbody>
+	<context>
+		<p>Things were installed</p>
+	</context>
+	<steps>
+		<step>
+			<cmd>
+				Chaos ensued.
+			</cmd>
+		</step>
+	</steps>
+</taskbody>
+</task>

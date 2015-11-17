@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
+
+<task id="post">
+<title>Set Up Project Pages</title>
+<shortdesc>
+	Project Pages can be created for any GitHub repository by storing a website in the gh-pages branch.
+</shortdesc>
+
+<taskbody>
+	<context>
+		<p>Make branch. Enter Code. Magic. Magic everywhere.</p>
+	</context>
+	<steps>
+		<step>
+			<cmd>
+				Chaos ensued.
+			</cmd>
+		</step>
+	</steps>
+</taskbody>
+</task>

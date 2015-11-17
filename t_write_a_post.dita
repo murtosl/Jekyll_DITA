@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
+
+<task id="post">
+<title>Write A Post</title>
+<shortdesc>
+	Pages of content are stored as posts in Jekyll. While Jekyll is targeted towards blogs, posts can contain any content desired.
+</shortdesc>
+
+<taskbody>
+	<context>
+		<p>This is not a post</p>
+	</context>
+	<steps>
+		<step>
+			<cmd>
+				this is a task.
+			</cmd>
+		</step>
+	</steps>
+</taskbody>
+</task>

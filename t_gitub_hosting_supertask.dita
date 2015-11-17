@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
+
+<task id="post">
+<title>Host with Github Pages</title>
+<shortdesc>
+	GitHub Pages will host sites using Jekyll for free. This can be set up in 10-20 minutes.
+</shortdesc>
+
+<taskbody>
+	<context>
+		<p>This might not be included in the submitted project</p>
+	</context>
+	<steps>
+		<step>
+			<cmd>
+				Because we do this already.
+			</cmd>
+		</step>
+	</steps>
+</taskbody>
+</task>

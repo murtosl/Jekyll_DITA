@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="github">
+<title>What are Variables?</title>
+<shortdesc>
+	Jekyll provides the ability to pass variables between files. These can be used to pass customized data from a post, or used to set a default value for the entire website.
+</shortdesc>
+
+    <conbody>
+		<p>Text was here. It's gone now.</p>
+	 </conbody>
+</concept>

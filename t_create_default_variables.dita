@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
+
+<task id="post">
+<title>Create Variables</title>
+<shortdesc>
+	Variables can be declared in the configuration file to be reused throughout the website.
+</shortdesc>
+
+<taskbody>
+	<context>
+		<p>Default Variables</p>
+	</context>
+	<steps>
+		<step>
+			<cmd>
+				was not declared
+			</cmd>
+		</step>
+	</steps>
+</taskbody>
+</task>

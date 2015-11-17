@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
+
+<task id="post">
+<title>Create a Configuration File</title>
+<shortdesc>
+	The configuration file can be customized so the Jekyll site works as desired. These settings can affect many aspects of the website, including customization of URLs and declaring custom variables.
+</shortdesc>
+
+<taskbody>
+	<context>
+		<p>Things were Configured</p>
+	</context>
+	<steps>
+		<step>
+			<cmd>
+				More chaos ensued.
+			</cmd>
+		</step>
+	</steps>
+</taskbody>
+</task>

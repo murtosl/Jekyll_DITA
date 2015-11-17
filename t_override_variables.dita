@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
+
+<task id="post">
+<title>Override Variables</title>
+<shortdesc>
+	Variables declared in the configuration file can be overwritten in posts. This lets data be cusomized based on the content the reader is viewing.
+</shortdesc>
+
+<taskbody>
+	<context>
+		<p>Post Variables</p>
+	</context>
+	<steps>
+		<step>
+			<cmd>
+				Aren't as needed.
+			</cmd>
+		</step>
+	</steps>
+</taskbody>
+</task>

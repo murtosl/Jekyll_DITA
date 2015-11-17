@@ -53,5 +53,3 @@ Mmm... is creating a website with Jekyll a writing goal, or do I just need to fo
 The fact of the matter is I would like to go above and beyond and use this project as a documentation writing sample for potential employers. But, I am working on three finals. Logie's is the hardest, Tech Com is only hard because it's group work and schedules are fun. This is decently straightforward, but I can't work on it on a lab computer because no command line access.
 
 There is no way I have enough time to make a complete config file documentation right now. I'm just going to have to stick with what I've used. It's needed though.
-
-You still need to fix NPP on your laptop.
