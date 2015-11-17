@@ -4,11 +4,10 @@
 <reference id="post">
 <title>Jekyll Folders</title>
 <shortdesc>
-	Jekyll depends on a specific folder configuration to work.  There are six folders that need to be created.
+	Jekyll expects certain types of files to be stored in specific folders. There are six folders that need to be created.
 </shortdesc>
 <refbody>
     <section>
-
 			<title>
 				Folders
 			</title>
@@ -33,7 +32,7 @@
 					</row>
 					<row>
 						<entry colname="col1">_includes</entry>
-						<entry colname="col2">Snippets of HTML or Posts that can be reused</entry>
+						<entry colname="col2">Snippets of HTML or posts that can be reused</entry>
 					</row>
 					<row>
 						<entry colname="col1">_layouts</entry>
