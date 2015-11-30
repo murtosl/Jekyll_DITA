@@ -4,21 +4,9 @@
 <map title="Creating a Website With Jekyll">
 	<title>Creating a Website With Jekyll</title>
 	<topicref href="c_jekyll.dita" />
-	<topicref href="t_jekyll_setup_supertask.dita" >
-		<topicref href="t_install_jekyll.dita" /> 	
-	    <topicref href="r_folders.dita" /> 
-		<topicref href="c_variables.dita"/>
-		<topicref href="t_create_config.dita">
-			<topicref href="r_config_settings.dita" /> 
-			<topicref href="t_create_default_variables.dita" />
-		</topicref>
-		<topicref href="t_override_variables.dita"/>
-		<topicref href="t_create_a_layout.dita"/>
-		<topicref href="t_write_a_post.dita"/>
-		<topicref href="t_testing_site.dita"/>
-	</topicref>
-	<topicref href="c_github_pages.dita" />
-	<topicref href="t_gitub_hosting_supertask.dita">
+	<topicref format="ditamap" href="_jekyll_setup.ditamap" />
+	<topicref href="c_github_pages.dita" toc="no"/>
+	<topicref href="t_gitub_hosting_supertask.dita" toc="no">
 		<topicref href="t_set_up_pages.dita" />
 		<topicref href="t_create_project_site.dita" />
 	</topicref>

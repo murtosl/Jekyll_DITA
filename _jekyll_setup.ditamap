@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/map.dtd">
+
+
+
+<map title="Configuring and Using Jekyll">
+	<title>Create a Website with Jekyll</title>
+	<topicref href="t_install_jekyll.dita" toc="no" /> 	
+	    <topicref href="r_folders.dita"  toc="no" /> 
+		<topicref href="c_variables.dita"/>
+		<topicref href="t_create_config.dita">
+			<topicref href="r_config_settings.dita" /> 
+			<topicref href="t_create_default_variables.dita" />
+		</topicref>
+		<topicref href="t_override_variables.dita"/>
+		<topicref href="t_create_a_layout.dita"/>
+		<topicref href="t_write_a_post.dita"/>
+		<topicref href="t_testing_site.dita"  toc="no" />
+</map>
