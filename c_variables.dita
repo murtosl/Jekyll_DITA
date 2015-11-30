@@ -4,10 +4,12 @@
 <concept id="github">
 <title>What are Variables?</title>
 <shortdesc>
-	Jekyll provides the ability to pass variables between files. These can be used to pass customized data from a post, or used to set a default value for the entire website.
+	Jekyll provides the ability to pass variables between files. Variables can be used to pass customized data from a post, or used to set a default value for the entire website.
 </shortdesc>
 
     <conbody>
-		<p>Text was here. It's gone now.</p>
+		<p>Jekyll variables are stored in two ways: as a variable belonging to the site, or  as a variable belonging to the page.</p> 
+		<p>Site variables will be consistent across all pages. The title of the site or home URL would be good site variables: they don’t change depending on the page being viewed. These variables can be declared in the config.yml file.</p>
+		<p>Page variables do change based on an individual page. The tile of a blog post or the date the post was written would be effective uses of a page variables. Page variables are declared in the YAML Front Matter.</p>
 	 </conbody>
 </concept>
