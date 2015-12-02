@@ -5,7 +5,7 @@
 <meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2015">
 <meta name="DC.rights.owner" content="(C) Copyright 2015">
 <meta name="DC.Type" content="task">
-<meta name="description" content="Pages of content are stored as posts in Jekyll. While Jekyll is targeted towards blogs, posts can contain any content desired."><meta name="DC.Format" content="XHTML">
+<meta name="description" content="A post is a Markdown, HTML or other text-based file filled with site content. Posts are inserted into the layout by Jekyll when it creates the website."><meta name="DC.Format" content="XHTML">
 <meta name="DC.Identifier" content="post">
 <link rel="stylesheet" type="text/css" href="commonltr.css">
 <title>Write A Post</title>
@@ -17,19 +17,49 @@
 
 
 <div class="body taskbody"><p class="shortdesc">
-	Pages of content are stored as posts in Jekyll. While Jekyll is targeted towards blogs, posts can contain any content desired.
+	A post is a Markdown, HTML or other text-based file filled with site content. Posts are inserted into the layout by Jekyll when it creates the website.
 </p>
 
 	<section class="section context">
-		<p class="p">This is not a post</p>
+		<p class="p">Posts go into the <samp class="ph codeph">_posts</samp> folder and can be a variety of file types. Markdown and HTML are the most common.</p>
+
+		
+		<p class="p">Jekyll can use a variety of file types, but the filename of a post must follow a specific format. This format indicates the date the post was made, and the topic of the post. The following format for the filename is required:</p>
+
+
+		<pre class="pre codeblock">YEAR-MONTH-DAY-title</pre>
+
+	
+		<p class="p"></p>
 
 	</section>
 
-	<div class="li step p">
+	<ol class="ol steps"><li class="li step">
 			<span class="ph cmd">
-				this is a task.
+				Create a file with a filename fitting the required format and of of an appropriate file type in the _posts folder.
 			</span>
-		</div>
+		</li>
+<li class="li step">
+			<span class="ph cmd">
+				Open the file in a text editor of your choice.
+			</span>
+		</li>
+<li class="li step">
+			<span class="ph cmd">
+				Create appropriate YAML Front Matter for the post. [I need to link to that task here, but I can't put a link here, and I'm confused.]
+			</span>
+		</li>
+<li class="li step">
+			<span class="ph cmd">
+				Write content for your post and save it.
+			</span>
+		</li>
+<li class="li step">
+			<span class="ph cmd">
+				Open the post in your browser and double check that it looks correct.
+			</span>
+		</li>
+</ol>
 
 </div>
 

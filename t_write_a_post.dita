@@ -4,17 +4,43 @@
 <task id="post">
 <title>Write A Post</title>
 <shortdesc>
-	Pages of content are stored as posts in Jekyll. While Jekyll is targeted towards blogs, posts can contain any content desired.
+	A post is a Markdown, HTML or other text-based file filled with site content. Posts are inserted into the layout by Jekyll when it creates the website.
 </shortdesc>
 
 <taskbody>
 	<context>
-		<p>This is not a post</p>
+		<p>Posts go into the <codeph>_posts</codeph> folder and can be a variety of file types. Markdown and HTML are the most common.</p>
+		
+		<p>Jekyll can use a variety of file types, but the filename of a post must follow a specific format. This format indicates the date the post was made, and the topic of the post. The following format for the filename is required:</p>
+
+		<codeblock>YEAR-MONTH-DAY-title</codeblock>
+	
+		<p></p>
 	</context>
 	<steps>
 		<step>
 			<cmd>
-				this is a task.
+				Create a file with a filename fitting the required format and of of an appropriate file type in the _posts folder.
+			</cmd>
+		</step>
+		<step>
+			<cmd>
+				Open the file in a text editor of your choice.
+			</cmd>
+		</step>
+		<step>
+			<cmd>
+				Create appropriate YAML Front Matter for the post. [I need to link to that task here, but I can't put a link here, and I'm confused.]
+			</cmd>
+		</step>
+		<step>
+			<cmd>
+				Write content for your post and save it.
+			</cmd>
+		</step>
+		<step>
+			<cmd>
+				Open the post in your browser and double check that it looks correct.
 			</cmd>
 		</step>
 	</steps>

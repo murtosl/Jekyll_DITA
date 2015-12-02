@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="github">
+<title>What is YAML Front Matter?</title>
+<shortdesc>
+	YAML Font Matter is used to tell Jekyll how to display and use a post. Front Matter is used to override default variables, and set the values of other properties.
+</shortdesc>
+
+    <conbody>
+		<p>Front Matter must be the first few lines in a file. Jekyll detects that a file starts with Front Matter and knows that the file needs to be processed. Jekyll then parses the YAML found in the Front Matter and deals with the variables.</p>
+		<p>Front matter is separated from the rest of the file by three dashes on their own line at the start and the conclusion of the YAML. There may only be one section of Front Matter in each file.</p>
+	 </conbody>
+</concept>
