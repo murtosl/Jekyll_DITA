@@ -30,7 +30,7 @@
 		</step>
 		<step>
 			<cmd>
-				Create appropriate YAML Front Matter for the post. [I need to link to that task here, but I can't put a link here, and I'm confused.]
+				Create any customized, default variables as described in <xref href="t_create_default_variables.dita" />
 			</cmd>
 		</step>
 		<step>

@@ -4,17 +4,49 @@
 <task id="post">
 <title>Create a Configuration File</title>
 <shortdesc>
-	The configuration file can be customized so the Jekyll site works as desired. These settings can affect many aspects of the website, including customization of URLs and declaring custom variables.
+	The configuration file has settings that can affect many aspects of the website, including customization of URLs and declaring custom variables.
 </shortdesc>
 
 <taskbody>
 	<context>
-		<p>Things were Configured</p>
+		<p>The configuration file is required for a Jekyll site to function. It can be customized so the Jekyll site works as desired. Default variables, build settings, server settings and extensions are all configured in the configuration file.</p>
 	</context>
 	<steps>
 		<step>
 			<cmd>
-				More chaos ensued.
+				Create a <codeph>_config.yml</codeph> in your site's root directory.
+			</cmd>
+		</step>
+		<step>
+			<cmd>
+				Create a section to store your default Jekyll variables, as described in <xref href="t_create_default_variables.dita" />
+			</cmd>
+			<stepxmp>	
+				<codeblock>
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+				</codeblock>
+			</stepxmp>
+		</step>
+		<step>
+			<cmd>
+				Set any language processing variables, such as Github Flavored Markdown (GFM).
+			</cmd>
+			<stepxmp>	
+				<codeblock>
+kramdown:
+  input: GFM
+				</codeblock>
+			</stepxmp>
+		</step>
+		<step>
+			<cmd>
+				Add any other customized settings, such as extensions, into the file. These settings are available in <xref href="r_config_settings.dita" />
 			</cmd>
 		</step>
 	</steps>
