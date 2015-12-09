@@ -5,9 +5,4 @@
 	<title>Creating a Website With Jekyll</title>
 	<topicref href="c_jekyll.dita" />
 	<topicref format="ditamap" href="_jekyll_setup.ditamap" />
-	<topicref href="c_github_pages.dita" toc="no"/>
-	<topicref href="t_gitub_hosting_supertask.dita" toc="no">
-		<topicref href="t_set_up_pages.dita" />
-		<topicref href="t_create_project_site.dita" />
-	</topicref>
 </map>

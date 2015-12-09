@@ -3,8 +3,6 @@
 
 <map title="Configuring and Using Jekyll">
 	<title>Configuring and Using Jekyll</title>
-		<topicref href="t_install_jekyll.dita" toc="no" /> 	
-	    <topicref href="r_folders.dita"  toc="no" /> 
 		<topicref href="t_create_config.dita">
 			<topicref href="r_config_settings.dita" /> 
 			<topicref href="c_variables.dita"/>
@@ -13,7 +11,5 @@
 				<topicref href="c_YAML_front_matter.dita"/>
 			</topicref>
 		</topicref>
-		<topicref href="t_create_a_layout.dita" toc="no"/>
 		<topicref href="t_write_a_post.dita"/>
-		<topicref href="t_testing_site.dita"  toc="no" />
 </map>
