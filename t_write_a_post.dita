@@ -4,24 +4,25 @@
 <task id="post">
 <title>Write A Post</title>
 <shortdesc>
-	A post is a Markdown, HTML or other text-based file filled with site content. Posts are inserted into the layout by Jekyll when it creates the website.
+	A post is a file filled with site content. Posts are inserted into the layout by Jekyll when it creates the website.
 </shortdesc>
 
 <taskbody>
 	<context>
-		<p>Posts go into the <codeph>_posts</codeph> folder and can be a variety of file types. Markdown and HTML are the most common.</p>
+		<p>Posts can be a variety of file types. This means the content can be in whatever format suits it the best.  All posts into the <codeph>_posts</codeph> folder. Jekyll will take these posts and convert them into a web-friendly format.</p>
 		
-		<p>Jekyll can use a variety of file types, but the filename of a post must follow a specific format. This format indicates the date the post was made, and the topic of the post. The following format for the filename is required:</p>
-
-		<codeblock>YEAR-MONTH-DAY-title</codeblock>
-	
-		<p></p>
 	</context>
 	<steps>
 		<step>
 			<cmd>
 				Create a file with a filename fitting the required format and of of an appropriate file type in the _posts folder.
 			</cmd>
+			<info> Jekyll can use a variety of file types. Markdown and HTML are the most common. The filename of a post must follow a specific format. This format indicates the date the post was made, and the topic of the post. The following format for the filename is required:
+				<codeph>YEAR-MONTH-DAY-title.extension</codeph>
+			</info>
+			<stepxmp>
+				An example filename would be <codeph>2015-12-25-DITA.html</codeph>
+			</stepxmp>
 		</step>
 		<step>
 			<cmd>

@@ -13,7 +13,7 @@
 				<topicref href="c_YAML_front_matter.dita"/>
 			</topicref>
 		</topicref>
-		<topicref href="t_create_a_layout.dita"/>
+		<topicref href="t_create_a_layout.dita" toc="no"/>
 		<topicref href="t_write_a_post.dita"/>
 		<topicref href="t_testing_site.dita"  toc="no" />
 </map>
