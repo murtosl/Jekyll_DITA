@@ -9,13 +9,38 @@
 
 <taskbody>
 	<context>
-		<p>Post Variables</p>
+		<p>Variables should be overwritten in the YAML front matter of a post. This will override that variable only for that post. For instance, if a post is written by a new author, the author variable may need to be overwritten with the new author's name.</p>
 	</context>
 	<steps>
 		<step>
 			<cmd>
-				Aren't as needed.
+				Be sure you have your default variable declared, as described in  <xref href="t_create_default_variables.dita" />
 			</cmd>
+		</step>
+		<step>
+			<cmd>
+				Create your post, as described in <xref href="t_write_a_post.dita" />
+			</cmd>
+		</step>
+		<step>
+			<cmd>
+				In the YAML front matter of the post created in step 2, write the name of the variable and set it equal to the value needed for this post.
+			</cmd>
+			<stepresult>
+				When viewing this post on the website, the post should reflect the changed setting. This changed setting will not be reflected on other posts.
+			</stepresult>
+		</step>
+		<step>
+			<cmd>
+				Create any customized, default variables as described in <xref href="t_create_default_variables.dita" />
+			</cmd>
+			<stepxmp>An variable named backgroundColor set to be red would look like this in the YAML front matter: 
+				<codeblock>
+---
+backgroundColor: red
+---
+				</codeblock>
+			</stepxmp>
 		</step>
 	</steps>
 </taskbody>

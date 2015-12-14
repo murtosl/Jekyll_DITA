@@ -31,11 +31,6 @@
 		</step>
 		<step>
 			<cmd>
-				Create any customized, default variables as described in <xref href="t_create_default_variables.dita" />
-			</cmd>
-		</step>
-		<step>
-			<cmd>
 				Write content for your post and save it.
 			</cmd>
 		</step>

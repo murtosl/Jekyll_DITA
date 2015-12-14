@@ -16,12 +16,12 @@
 	<steps>
 		<step>
 			<cmd>
-				Pick a value that will be reused on your website.
+				Pick a setting that will be reused on your website.
 			</cmd>
 		</step>
 		<step>
 			<cmd>
-				Decide the appropriate value for the default value.
+				Decide the appropriate value to be the default of this setting.
 			</cmd>
 			<info>
 				This should be a value that will not look out of place if a post does not have an override.

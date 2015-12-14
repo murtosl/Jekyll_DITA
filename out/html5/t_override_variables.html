@@ -23,15 +23,42 @@
 </p>
 
 	<section class="section context">
-		<p class="p">Post Variables</p>
+		<p class="p">Variables should be overwritten in the YAML front matter of a post. This will override that variable only for that post. For instance, if a post is written by a new author, the author variable may need to be overwritten with the new author's name.</p>
 
 	</section>
 
-	<div class="li step p">
+	<ol class="ol steps"><li class="li step stepexpand">
 			<span class="ph cmd">
-				Aren't as needed.
+				Be sure you have your default variable declared, as described in  <a class="xref" href="t_create_default_variables.html" title="Default variables can be declared in the configuration file to be reused throughout the website.">Create Default Variables</a>
 			</span>
-		</div>
+		</li>
+<li class="li step stepexpand">
+			<span class="ph cmd">
+				Create your post, as described in <a class="xref" href="t_write_a_post.html" title="A post is a file filled with site content. Posts are inserted into the layout by Jekyll when it creates the website.">Write A Post</a>
+			</span>
+		</li>
+<li class="li step stepexpand">
+			<span class="ph cmd">
+				In the YAML front matter of the post created in step 2, write the name of the variable and set it equal to the value needed for this post.
+			</span>
+			<div class="itemgroup stepresult">
+				When viewing this post on the website, the post should reflect the changed setting. This changed setting will not be reflected on other posts.
+			</div>
+		</li>
+<li class="li step stepexpand">
+			<span class="ph cmd">
+				Create any customized, default variables as described in <a class="xref" href="t_create_default_variables.html" title="Default variables can be declared in the configuration file to be reused throughout the website.">Create Default Variables</a>
+			</span>
+			<div class="itemgroup stepxmp">An variable named backgroundColor set to be red would look like this in the YAML front matter: 
+				<pre class="pre codeblock">
+---
+backgroundColor: red
+---
+				</pre>
+
+			</div>
+		</li>
+</ol>
 
 </div>
 
