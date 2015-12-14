@@ -8,7 +8,7 @@
 </shortdesc>
 
     <conbody>
-		<p>Front Matter must be the first few lines in a file. Jekyll detects that a file starts with Front Matter and knows that the file needs to be processed. Jekyll then parses the YAML found in the Front Matter and deals with the variables.</p>
-		<p>Front matter is separated from the rest of the file by three dashes on their own line at the start and the conclusion of the YAML. There may only be one section of Front Matter in each file.</p>
+		<p>Front Matter must be the first few lines in a file. Jekyll detects that a file starts with Front Matter and knows that the file needs to be processed. Jekyll then parses the YAML found in the Front Matter and handles the information as needed.</p>
+		<p>Front Matter is separated from the rest of the file by three dashes on their own line at the start and the conclusion of the YAML. There may only be one section of Front Matter in each file.</p>
 	 </conbody>
 </concept>

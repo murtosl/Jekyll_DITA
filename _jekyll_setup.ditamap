@@ -7,9 +7,9 @@
 			<topicref href="r_config_settings.dita" /> 
 			<topicref href="c_variables.dita"/>
 			<topicref href="t_create_default_variables.dita" />
-			<topicref href="t_override_variables.dita">
-				<topicref href="c_YAML_front_matter.dita"/>
-			</topicref>
 		</topicref>
 		<topicref href="t_write_a_post.dita"/>
+		<topicref href="t_override_variables.dita">
+				<topicref href="c_YAML_front_matter.dita"/>
+		</topicref>
 </map>

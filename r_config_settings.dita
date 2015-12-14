@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/reference.dtd">
 
 <reference id="post">
-<title>Config File Settings</title>
+<title>Configuration File Settings</title>
 <shortdesc>
 	The configuration file can be customized so the Jekyll site works as desired. These settings can affect many aspects of the website, including customization of URLs and declaring custom variables.
 </shortdesc>
@@ -21,48 +21,48 @@
 <row>
 <entry valign="top">Setting</entry>
 <entry valign="top">Description</entry>
-<entry valign="top">Options</entry>
+<entry valign="top">Syntax</entry>
 </row>
 </thead>
 <tbody>
 <row>
 <entry colname="col1">source</entry>
-<entry colname="col2">Jekyll will look for files in this directory.</entry>
+<entry colname="col2">Jekyll looks for files in this directory</entry>
 <entry colname="col3"><codeph>source: DIR</codeph></entry>
 </row>
 <row>
 <entry colname="col1">destination</entry>
-<entry colname="col2">Jekyll will create the website in this directory.</entry>
+<entry colname="col2">Jekyll creates the website in this directory</entry>
 <entry colname="col3"><codeph>destination: DIR</codeph></entry>
 </row>
 <row>
 <entry colname="col1">exclude</entry>
-<entry colname="col2">Jekyll will ignore these files or directories.</entry>
+<entry colname="col2">Jekyll ignores these files or directories</entry>
 <entry colname="col3"><codeph>exclude: [DIR, FILE, ...]</codeph></entry>
 </row>
 <row>
 <entry colname="col1">include</entry>
-<entry colname="col2">Jekyll will explicitly include these files or directories.</entry>
+<entry colname="col2">Jekyll includes these files or directories</entry>
 <entry colname="col3"><codeph>include: [DIR, FILE, ...]</codeph></entry>
 </row>
 <row>
 <entry colname="col1">timezone</entry>
-<entry colname="col2">Overrides the time set by the computer with a different  <xref href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones" format="html">IANA Time Zones</xref></entry>
+<entry colname="col2">Overrides the timezone with a different  <xref href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones" format="html">IANA Time Zones</xref></entry>
 <entry colname="col3"><codeph>timezone: TIMEZONE</codeph></entry>
 </row>
 <row>
 <entry colname="col1">host</entry>
-<entry colname="col2">hostname of server</entry>
+<entry colname="col2">Hostname of server</entry>
 <entry colname="col3"><codeph>host: HOSTNAME</codeph></entry>
 </row>
 <row>
 <entry colname="col1">port</entry>
-<entry colname="col2">Website Port</entry>
+<entry colname="col2">Website port</entry>
 <entry colname="col3"><codeph>port: PORT</codeph></entry>
 </row>
 <row>
 <entry colname="col1">baseurl</entry>
-<entry colname="col2">URL the website will be served from</entry>
+<entry colname="col2">URL of the website</entry>
 <entry colname="col3"><codeph>baseurl: URL</codeph></entry>
 </row>
 </tbody>

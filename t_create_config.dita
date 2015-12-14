@@ -9,7 +9,9 @@
 
 <taskbody>
 	<context>
-		<p>The configuration file is required for a Jekyll site to function. It can be customized so the Jekyll site works as desired. Default variables, build settings, server settings and extensions are all configured in the configuration file.</p>
+		<p>The configuration file is required for a Jekyll site to function. It can be customized so the Jekyll site works as desired. Default variables, build settings, server settings and installable extensions are all configured in the configuration file.</p>
+		
+		<p>To create a configuration file:</p>
 	</context>
 	<steps>
 		<step>

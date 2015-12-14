@@ -5,8 +5,7 @@
 <meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2015">
 <meta name="DC.rights.owner" content="(C) Copyright 2015">
 <meta name="DC.Type" content="task">
-<meta name="description" content="Variables declared in the configuration file can be overwritten in posts. This lets data be cusomized based on the content the reader is viewing."><meta name="DC.Relation" scheme="URI" content="t_create_config.html">
-<meta name="DC.Relation" scheme="URI" content="c_YAML_front_matter.html">
+<meta name="description" content="Variables declared in the configuration file can be overridden a post's YAML Front Matter. This lets data be cusomized based on the content the reader is viewing."><meta name="DC.Relation" scheme="URI" content="c_YAML_front_matter.html">
 <meta name="DC.Format" content="XHTML">
 <meta name="DC.Identifier" content="post">
 <link rel="stylesheet" type="text/css" href="commonltr.css">
@@ -19,43 +18,41 @@
 
 
 <div class="body taskbody"><p class="shortdesc">
-	Variables declared in the configuration file can be overwritten in posts. This lets data be cusomized based on the content the reader is viewing.
+	Variables declared in the configuration file can be overridden a post's YAML Front Matter. This lets data be cusomized based on the content the reader is viewing.
 </p>
 
 	<section class="section context">
-		<p class="p">Variables should be overwritten in the YAML front matter of a post. This will override that variable only for that post. For instance, if a post is written by a new author, the author variable may need to be overwritten with the new author's name.</p>
+		<p class="p">Overridden variables are only changed for the individual post. For an example, if a post is written by a new author, the author variable may need to be overridden with the new author's name. All other posts will retain the default author's name.</p>
+
+		
+		<p class="p">To override a variable:</p>
 
 	</section>
 
 	<ol class="ol steps"><li class="li step stepexpand">
 			<span class="ph cmd">
-				Be sure you have your default variable declared, as described in  <a class="xref" href="t_create_default_variables.html" title="Default variables can be declared in the configuration file to be reused throughout the website.">Create Default Variables</a>
+				Be sure you have your default variable declared, as described in  <a class="xref" href="t_create_default_variables.html" title="Default variables are declared in the configuration file and can be reused throughout the website.">Create Default Variables</a>
 			</span>
 		</li>
 <li class="li step stepexpand">
 			<span class="ph cmd">
-				Create your post, as described in <a class="xref" href="t_write_a_post.html" title="A post is a file filled with site content. Posts are inserted into the layout by Jekyll when it creates the website.">Write A Post</a>
+				Create your post, as described in <a class="xref" href="t_write_a_post.html" title="A post is a file filled with site content. Posts are inserted into the layout by Jekyll when it creates the website.">Write a Post</a>
 			</span>
 		</li>
 <li class="li step stepexpand">
 			<span class="ph cmd">
-				In the YAML front matter of the post created in step 2, write the name of the variable and set it equal to the value needed for this post.
+				In the YAML Front Matter of the post created in step 2, write the name of the variable. Set it equal to the value desired for this post.
 			</span>
-			<div class="itemgroup stepresult">
-				When viewing this post on the website, the post should reflect the changed setting. This changed setting will not be reflected on other posts.
-			</div>
-		</li>
-<li class="li step stepexpand">
-			<span class="ph cmd">
-				Create any customized, default variables as described in <a class="xref" href="t_create_default_variables.html" title="Default variables can be declared in the configuration file to be reused throughout the website.">Create Default Variables</a>
-			</span>
-			<div class="itemgroup stepxmp">An variable named backgroundColor set to be red would look like this in the YAML front matter: 
+					<div class="itemgroup stepxmp">An variable named backgroundColor set to be red would look like this in the YAML Front Matter: 
 				<pre class="pre codeblock">
 ---
 backgroundColor: red
 ---
 				</pre>
 
+			</div>
+			<div class="itemgroup stepresult">
+				When viewing this post on the website, the post should reflect the changed setting. This changed setting will not be reflected on other posts.
 			</div>
 		</li>
 </ol>
@@ -67,9 +64,5 @@ backgroundColor: red
 <li class="link ulchildlink"><strong><a href="c_YAML_front_matter.html">What is YAML Front Matter?</a></strong><br>
  	YAML Font Matter is used to tell Jekyll how to display and use a post. Front Matter is used to override default variables, and set the values of other properties. </li>
 </ul>
-
-<div class="familylinks">
-<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="t_create_config.html" title="The configuration file has settings that can affect many aspects of the website, including customization of URLs and declaring custom variables.">Create a Configuration File</a></div>
-</div>
 </nav></article></main></body>
 </html>

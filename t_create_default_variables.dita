@@ -4,14 +4,13 @@
 <task id="post">
 <title>Create Default Variables</title>
 <shortdesc>
-	Default variables can be declared in the configuration file to be reused throughout the website.
+	Default variables are declared in the configuration file and can be reused throughout the website.
 </shortdesc>
 
 <taskbody>
 	<context>
-		<p>Default variables can be anything that is reused throughout the website. Items such as the title of the website, certain layout settings, or the author make good default variables.</p>
-
-		<p>Default variables can have their values overwritten by individual posts. If the post does not override the default variable, the default variable's value will be used for that post.</p>
+		<p>Items such as the title of the website, the author, or layout settings make good default variables. Default variables can have their values overwritten by individual posts. If the post does not override the default variable, the default variable's value will be used for that post.</p>
+		<p>To create a default variable:</p>
 	</context>
 	<steps>
 		<step>
@@ -24,15 +23,19 @@
 				Decide the appropriate value to be the default of this setting.
 			</cmd>
 			<info>
-				This should be a value that will not look out of place if a post does not have an override.
+				This should be a value that will not look out of place if a post does not have an override. This value may be shown on the website, even if you intend to override it.
 			</info>
 		</step>
 		<step>
 			<cmd>
-				Open the website's Jekyll configuration file. On a new line, enter the name of the variable and set it equal to the desired default value.
+				Open the Jekyll configuration file. On a new line, enter the name of the variable and set it equal to the desired default value.
 			</cmd>
 			<info><note type="attention">Be sure the variable is not nested under other variables, or it may cause the site to build incorrectly.</note></info>
-			<stepxmp>An variable named backgroundColor set to default to red would look like this in the configuration file: <codeph>backgroundColor: red</codeph></stepxmp>
+			<stepxmp>An variable named backgroundColor whose default value is red would look like this in the configuration file: 
+				<codeblock>
+	backgroundColor: red
+				</codeblock>
+			</stepxmp>
 			<stepresult>The variable should now be accessible from the website's posts and layout.</stepresult>
 		</step>
 	</steps>
