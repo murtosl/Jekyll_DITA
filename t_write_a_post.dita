@@ -33,6 +33,11 @@
 		</step>
 		<step>
 			<cmd>
+				Create YAML Front Matter for your post. YAML Front Matter is described in  <xref href="c_YAML_front_matter.dita" />
+			</cmd>
+		</step>
+		<step>
+			<cmd>
 				Write content for your post and save it.
 			</cmd>
 		</step>

@@ -4,7 +4,7 @@
 <task id="post">
 <title>Override Variables</title>
 <shortdesc>
-	Variables declared in the configuration file can be overridden a post's YAML Front Matter. This lets data be cusomized based on the content the reader is viewing.
+	Variables declared in the configuration file can be overridden a post's YAML Front Matter. This allows data to be customized based on the content the reader is viewing.
 </shortdesc>
 
 <taskbody>
@@ -28,7 +28,7 @@
 			<cmd>
 				In the YAML Front Matter of the post created in step 2, write the name of the variable. Set it equal to the value desired for this post.
 			</cmd>
-					<stepxmp>An variable named backgroundColor set to be red would look like this in the YAML Front Matter: 
+					<stepxmp>A variable named backgroundColor set to be red would look like this in the YAML Front Matter: 
 				<codeblock>
 ---
 backgroundColor: red

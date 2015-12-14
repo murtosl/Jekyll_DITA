@@ -3,13 +3,13 @@
 
 <map title="Configuring and Using Jekyll">
 	<title>Configuring and Using Jekyll</title>
-		<topicref href="t_create_config.dita">
+		<topicref href="t_create_config.dita" collection-type="family">
 			<topicref href="r_config_settings.dita" /> 
 			<topicref href="c_variables.dita"/>
 			<topicref href="t_create_default_variables.dita" />
 		</topicref>
-		<topicref href="t_write_a_post.dita"/>
-		<topicref href="t_override_variables.dita">
-				<topicref href="c_YAML_front_matter.dita"/>
+		<topicref href="t_write_a_post.dita"  collection-type="family">
+			<topicref href="c_YAML_front_matter.dita"/>
+			<topicref href="t_override_variables.dita"/>
 		</topicref>
 </map>
