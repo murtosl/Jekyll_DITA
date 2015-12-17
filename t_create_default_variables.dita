@@ -8,6 +8,9 @@
 </shortdesc>
 
 <taskbody>
+	<prereq>
+		<p>Before you start this task, the Jekyll configuration file will need to be created, but not complete, as described in <xref href="t_create_config.dita" /></p>
+	</prereq>
 	<context>
 		<p>Items such as the title of the website, the author, or layout settings make good default variables. Default variables can have their values overwritten by individual posts. If the post does not override the default variable, the default variable's value will be used for that post.</p>
 		<p>To create a default variable:</p>

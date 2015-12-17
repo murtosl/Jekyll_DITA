@@ -12,7 +12,7 @@
 			
 		<p>Default variable should be declared before attempting this task, as described in  <xref href="t_create_default_variables.dita" /></p>
 			
-		<p>A post that needs overridden variables should already exist, as described in <xref href="t_write_a_post.dita" /></p>
+		<p>A post that needs overridden variables should already exist, but does not need to be complete, as described in <xref href="t_write_a_post.dita" /></p>
 		
 		<p>More information on Jekyll variables is available in <xref href="c_variables.dita" /></p>
 		
