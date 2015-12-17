@@ -8,22 +8,22 @@
 </shortdesc>
 
 <taskbody>
+	<prereq>
+			
+		<p>Default variable should be declared before attempting this task, as described in  <xref href="t_create_default_variables.dita" /></p>
+			
+		<p>A post that needs overridden variables should already exist, as described in <xref href="t_write_a_post.dita" /></p>
+		
+		<p>More information on Jekyll variables is available in <xref href="c_variables.dita" /></p>
+		
+	</prereq>
 	<context>
 		<p>Overridden variables are only changed for the individual post. For an example, if a post is written by a new author, the author variable may need to be overridden with the new author's name. All other posts will retain the default author's name.</p>
+		
 		
 		<p>To override a variable:</p>
 	</context>
 	<steps>
-		<step>
-			<cmd>
-				Be sure you have your default variable declared, as described in  <xref href="t_create_default_variables.dita" />
-			</cmd>
-		</step>
-		<step>
-			<cmd>
-				Create your post, as described in <xref href="t_write_a_post.dita" />
-			</cmd>
-		</step>
 		<step>
 			<cmd>
 				In the YAML Front Matter of the post created in step 2, write the name of the variable. Set it equal to the value desired for this post.

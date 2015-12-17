@@ -22,25 +22,29 @@
 	Variables declared in the configuration file can be overridden a post's YAML Front Matter. This allows data to be customized based on the content the reader is viewing.
 </p>
 
+	<div class="section prereq p">
+			
+		<p class="p">Default variable should be declared before attempting this task, as described in  <a class="xref" href="t_create_default_variables.html" title="Default variables are declared in the configuration file and can be reused throughout the website.">Create Default Variables</a></p>
+
+			
+		<p class="p">A post that needs overridden variables should already exist, as described in <a class="xref" href="t_write_a_post.html" title="A post is a file filled with site content. Posts are inserted into the layout by Jekyll when it creates the website.">Write a Post</a></p>
+
+		
+		<p class="p">More information on Jekyll variables is available in <a class="xref" href="c_variables.html" title="Jekyll provides the ability to pass variables between static files. Variables can be used to pass customized data from a post, or be used to set a default value for the entire website.">What are Variables?</a></p>
+
+		
+	</div>
+
 	<section class="section context">
 		<p class="p">Overridden variables are only changed for the individual post. For an example, if a post is written by a new author, the author variable may need to be overridden with the new author's name. All other posts will retain the default author's name.</p>
 
+		
 		
 		<p class="p">To override a variable:</p>
 
 	</section>
 
-	<ol class="ol steps"><li class="li step stepexpand">
-			<span class="ph cmd">
-				Be sure you have your default variable declared, as described in  <a class="xref" href="t_create_default_variables.html" title="Default variables are declared in the configuration file and can be reused throughout the website.">Create Default Variables</a>
-			</span>
-		</li>
-<li class="li step stepexpand">
-			<span class="ph cmd">
-				Create your post, as described in <a class="xref" href="t_write_a_post.html" title="A post is a file filled with site content. Posts are inserted into the layout by Jekyll when it creates the website.">Write a Post</a>
-			</span>
-		</li>
-<li class="li step stepexpand">
+	<div class="li step p">
 			<span class="ph cmd">
 				In the YAML Front Matter of the post created in step 2, write the name of the variable. Set it equal to the value desired for this post.
 			</span>
@@ -55,8 +59,7 @@ backgroundColor: red
 			<div class="itemgroup stepresult">
 				When viewing this post on the website, the post should reflect the changed setting. This changed setting will not be reflected on other posts.
 			</div>
-		</li>
-</ol>
+		</div>
 
 </div>
 
