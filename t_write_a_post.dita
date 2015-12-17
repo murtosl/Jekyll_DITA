@@ -23,7 +23,7 @@
 				<codeph>YEAR-MONTH-DAY-title.extension</codeph>
 			</info>
 			<stepxmp>
-				An example filename would be <codeph>2015-11-25-DITA.html</codeph>
+				An example filename would be <codeph>2015-11-25-Jekyll.html</codeph>
 			</stepxmp>
 		</step>
 		<step>

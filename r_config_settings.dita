@@ -4,7 +4,7 @@
 <reference id="post">
 <title>Configuration File Settings</title>
 <shortdesc>
-	The configuration file can be customized so the Jekyll site works as desired. These settings can affect many aspects of the website, including customization of URLs and declaring custom variables.
+	The configuration file can be customized so the Jekyll site works as desired. These settings can affect many aspects of the website, including the customization of URLs and the declaration of custom variables.
 </shortdesc>
 <refbody>
     <section>

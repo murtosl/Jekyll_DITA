@@ -4,7 +4,7 @@
 <concept id="github">
 <title>What are Variables?</title>
 <shortdesc>
-	Jekyll provides the ability to pass variables between files. Variables can be used to pass customized data from a post, or used to set a default value for the entire website.
+	Jekyll provides the ability to pass variables between static files. Variables can be used to pass customized data from a post, or be used to set a default value for the entire website.
 </shortdesc>
 
     <conbody>

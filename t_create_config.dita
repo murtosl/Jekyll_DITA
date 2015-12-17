@@ -9,7 +9,7 @@
 
 <taskbody>
 	<context>
-		<p>The configuration file is required for a Jekyll site to function. It can be customized so the Jekyll site works as desired. Default variables, build settings, server settings and installable extensions are all configured in the configuration file.</p>
+		<p>The configuration file is required for a Jekyll site to function. It can be customized so that the Jekyll site works as desired. Default variables, build settings, server settings and installable extensions are all configured in the configuration file.</p>
 		
 		<p>To create a configuration file:</p>
 	</context>
@@ -45,6 +45,7 @@ kramdown:
   input: GFM
 				</codeblock>
 			</stepxmp>
+			<info>These settings allow Jekyll to understand the format in which posts are written.</info>
 		</step>
 		<step>
 			<cmd>
